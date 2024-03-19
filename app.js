@@ -23,4 +23,4 @@ app.get("*",(req, res)=>{
 
 
 
-app.listen(3000,"0.0.0.0");
+app.listen(process.env.PORT || 8000,"0.0.0.0");
